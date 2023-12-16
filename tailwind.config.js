@@ -11,9 +11,9 @@ export default {
         rubik: ["Rubik", ...defaultTheme.fontFamily.sans]
       },
       colors: {
-        primaryColor: '#008080',
-        secondaryColor: '#004949',
-        backgroundColor: '#F9F9F9',
+        primaryColor: '#2F65E3',
+        secondaryColor: '#2F65E3',
+        backgroundColor: '#4CAF50',
         darkBackgroundColor: '#232323',
         backgroundColor100: '#E5E5E5',
         backgroundColor200: '#FCFCFC',

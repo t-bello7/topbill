@@ -7,7 +7,7 @@ import { renderWithRouter } from '../utils';
 describe('Test for routes', () => {
   test('Check Home route', () => {
     renderWithRouter(<Home />);
-    expect(screen.getByText('Dashboard')).toBeDefined();
+    expect(screen.getByText('community')).toBeDefined();
   });
 
   // /login
@@ -16,21 +16,6 @@ describe('Test for routes', () => {
     expect(screen.getByText('Login')).toBeDefined();
   });
 
-  // / - Dashboardpage
-
-  // /admin
-
-  // /users
-
-  // /adverts
-
-  // /community
-
-  // /site-settings
-
-  // /static-pages
-
-  // /seo-settings
 });
 // import { describe, test, expect } from "vitest";
 // import Button from "../components/atoms/Button";
