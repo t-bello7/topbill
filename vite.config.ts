@@ -6,13 +6,12 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
   // mode: 'development',
   // registerType: "autoUpdate",
   registerType: 'prompt',
-  base: './',
+  base: '/',
   manifest: {
-    name: 'The name of your application',
+    name: 'Check',
     theme_color: '#317EFB',
-    short_name:
-      'This name will show in your Windows taskbar, in the start menu, and Android homescreen',
-    start_url: 'The URL that should be loaded when your application is opened',
+    short_name: 'Check',
+    start_url: '/',
     display: 'standalone',
     description: 'A description for your application',
     lang: ' The default language of your application',
@@ -49,8 +48,8 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
     prefer_related_applications: false,
     shortcuts: [
       {
-        name: 'The name you would like to be displayed for your shortcut',
-        url: 'The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut',
+        name: 'Invoices',
+        url: '/invoices',
         description: 'A description of the functionality of this shortcut',
       },
     ],

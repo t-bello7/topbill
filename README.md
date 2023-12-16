@@ -118,7 +118,7 @@ yarn install
 ```
 
 - You should get a result like this
-  <img src="./public/imgs/vite-setup.png" alt="vite running on localhost:5173"/>
+  <img src="./public/assets/imgs/vite-setup.png" alt="vite running on localhost:5173"/>
 
 ### Run tests <a name="run-tests"></a>
 
