@@ -1,15 +1,15 @@
 import { v4 as uuidv4 } from 'uuid';
 import { Link } from 'react-router-dom';
 import { Button } from '../atoms';
-import {
-  HomeIcon,
-  MessageIcon,
-  StarIcon,
-  UserIcon,
-  SquarePlusIcon,
-} from '../../assets/icons';
+import { HomeIcon, MessageIcon, UserIcon } from '../../assets/icons';
 
 const navLinks = [
+  {
+    id: uuidv4(),
+    name: 'invoices',
+    url: '/invoices',
+    icon: <MessageIcon color="fill-backgroundColor300" />,
+  },
   {
     id: uuidv4(),
     name: 'home',
@@ -18,32 +18,14 @@ const navLinks = [
   },
   {
     id: uuidv4(),
-    name: 'saved',
-    url: '/saved',
-    icon: <StarIcon color="fill-backgroundColor300" />,
-  },
-  {
-    id: uuidv4(),
-    name: 'sell',
-    url: '/sell',
-    icon: <SquarePlusIcon color="fill-backgroundColor300" />,
-  },
-  {
-    id: uuidv4(),
-    name: 'message',
-    url: '/message',
-    icon: <MessageIcon color="fill-backgroundColor300" />,
-  },
-  {
-    id: uuidv4(),
-    name: 'profile',
-    url: '/profile',
+    name: 'clients',
+    url: '/clients',
     icon: <UserIcon color="fill-backgroundColor300" />,
   },
 ];
 
 const MobileNav = () => (
-  <nav className="container mx-auto grid max-w-[95%] grid-cols-5 shadow-inner md:hidden ">
+  <nav className="container mx-auto grid max-w-[95%] grid-cols-3 self-center shadow-inner md:hidden ">
     {navLinks.map((item) => (
       <Link to={item.url} key={item.id}>
         <Button

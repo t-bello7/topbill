@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        lexandDeca: ['Lexend Deca', ...defaultTheme.fontFamily.sans],
-        rubik: ['Rubik', ...defaultTheme.fontFamily.sans],
+        nunitoSans: ['Nunito Sans', ...defaultTheme.fontFamily.sans],
+        roboto: ['Roboto', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primaryColor: '#2F65E3',

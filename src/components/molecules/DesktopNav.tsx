@@ -12,7 +12,7 @@ const DesktopNav: FC = () => (
     <h2> Campus Hub </h2>
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
       <div>
-        <h3 className="mb-5 font-rubik text-lg font-bold capitalize">
+        <h3 className="mb-5 font-roboto text-lg font-bold capitalize">
           Contact Us
         </h3>
         <ul className="space-y-2">
@@ -34,7 +34,7 @@ const DesktopNav: FC = () => (
         </ul>
       </div>
       <div>
-        <h3 className="mb-5 font-rubik text-lg font-bold capitalize">
+        <h3 className="mb-5 font-roboto text-lg font-bold capitalize">
           Follow our social media
         </h3>
         <ul className="space-y-2">
@@ -63,7 +63,7 @@ const DesktopNav: FC = () => (
         </ul>
       </div>
       <div>
-        <h3 className="mb-5 font-rubik text-lg font-bold capitalize">
+        <h3 className="mb-5 font-roboto text-lg font-bold capitalize">
           Useful Links
         </h3>
         <div className="grid grid-cols-2">

@@ -1,10 +1,10 @@
 import { FC } from 'react';
 import { Avatar, Card } from 'antd';
-import { CommunityCardInt } from '../../utils';
+import { ClientsCardInt } from '../../utils';
 import { ShareIcon, CommentIcon, LikeIcon } from '../../assets/icons';
 
 const { Meta } = Card;
-const CommunityCard: FC<CommunityCardInt> = ({ data }) => {
+const ClientsCard: FC<ClientsCardInt> = ({ data }) => {
   const {
     viewNum,
     commentNum,
@@ -80,4 +80,4 @@ const CommunityCard: FC<CommunityCardInt> = ({ data }) => {
   );
 };
 
-export default CommunityCard;
+export default ClientsCard;

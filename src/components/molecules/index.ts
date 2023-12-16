@@ -2,8 +2,8 @@ import MobileNav from './MobileNav';
 import Navbar from './Navbar';
 import DesktopNav from './DesktopNav';
 import ProductCard from './ProductCard';
-import CommunityCard from './CommunityCard';
+import ClientsCard from './ClientsCard';
 
 export {
-  MobileNav, Navbar, DesktopNav, ProductCard, CommunityCard,
+  MobileNav, Navbar, DesktopNav, ProductCard, ClientsCard,
 };

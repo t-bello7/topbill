@@ -1,9 +1,9 @@
 import { FC } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { CommunityDataInt } from '../utils';
-import { CommunityCard } from '../components/molecules';
+import { ClientsDataInt } from '../utils';
+import { ClientsCard } from '../components/molecules';
 
-const data: CommunityDataInt[] = [
+const data: ClientsDataInt[] = [
   {
     id: uuidv4(),
     viewNum: 453,
@@ -19,11 +19,11 @@ const data: CommunityDataInt[] = [
   },
 ];
 
-const Community: FC = () => (
+const Clients: FC = () => (
   <section>
     {data.map((item) => (
-      <CommunityCard key={item.id} data={item} />
+      <ClientsCard key={item.id} data={item} />
     ))}
   </section>
 );
-export default Community;
+export default Clients;

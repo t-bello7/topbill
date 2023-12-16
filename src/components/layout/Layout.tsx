@@ -5,7 +5,7 @@ import { Header, Footer } from '../elements';
 const Layout: FC = () => {
   const { pathname } = useLocation();
   return (
-    <div className="font-lexandDeca dark:bg-darkBackgroundColor dark:text-white">
+    <div className="font-nunitoSans dark:bg-darkBackgroundColor dark:text-white">
       <Header />
       <hr className="my-2 bg-backgroundColor" />
       <main

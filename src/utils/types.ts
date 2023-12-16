@@ -41,7 +41,7 @@ interface ProductCardInt {
   type?: 'apartment';
 }
 
-interface CommunityDataInt {
+interface ClientsDataInt {
   id: string;
   viewNum: number;
   commentNum: number;
@@ -54,8 +54,8 @@ interface CommunityDataInt {
   postContent: string;
 }
 
-interface CommunityCardInt {
-  data: CommunityDataInt;
+interface ClientsCardInt {
+  data: ClientsDataInt;
 }
 
 export type {
@@ -65,6 +65,6 @@ export type {
   SectionTitleInt,
   ProductCardInt,
   LatestAdDataInt,
-  CommunityCardInt,
-  CommunityDataInt,
+  ClientsCardInt,
+  ClientsDataInt,
 };

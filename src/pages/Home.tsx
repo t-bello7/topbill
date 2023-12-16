@@ -1,7 +1,6 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
-import { AdvancedImage } from '@cloudinary/react';
 import { SectionTitle } from '../components/atoms';
 import { LatestAdSection } from '../components/elements';
 

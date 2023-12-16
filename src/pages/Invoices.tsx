@@ -12,7 +12,7 @@ const data = [
     viewsNum: 453,
   },
 ];
-const Apartments: FC = () => (
+const Invoices: FC = () => (
   <section>
     {data.map((item) => (
       <ProductCard key={item.id} data={item} type="apartment" />
@@ -20,4 +20,4 @@ const Apartments: FC = () => (
   </section>
 );
 
-export default Apartments;
+export default Invoices;

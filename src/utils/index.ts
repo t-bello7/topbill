@@ -9,10 +9,9 @@ import type {
   CustomInputInt,
   ProductCardInt,
   LatestAdDataInt,
-  CommunityCardInt,
-  CommunityDataInt,
+  ClientsCardInt,
+  ClientsDataInt,
 } from './types';
-import { cld } from './cloudinary';
 
 const renderWithRouter = (ui: ReactElement<string>, { route = '/' } = {}) => {
   // if (window !== undefined) {
@@ -29,11 +28,10 @@ export {
   renderWithRouter,
   ButtonInterface,
   IconInterface,
-  cld,
   SectionTitleInt,
   CustomInputInt,
   ProductCardInt,
   LatestAdDataInt,
-  CommunityCardInt,
-  CommunityDataInt,
+  ClientsCardInt,
+  ClientsDataInt,
 };

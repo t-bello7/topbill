@@ -57,13 +57,14 @@
 
 <!-- Resources -->
 
-## Major Dependencies <a name="resources"></a>
-
-- https://codingpr.com/test-your-react-app-with-vitest-and -https://grandconference.themegoods.com/v5/design/
-  -react-testing-library/
+## Resources <a name="resources"></a>
 - https://vitest.dev/guide/
-
+- https://www.behance.net/gallery/97318173/WAVE-Invoicing-and-Money-Management?tracking_source=search_projects&l=29
+- https://www.behance.net/gallery/184647187/Rapid-Invoice?tracking_source=search_projects&l=26
 - https://www.framer.com/motion/introduction/
+- https://www.zoho.com/invoice/mobile-apps/
+- https://www.invoicesimple.com/
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
