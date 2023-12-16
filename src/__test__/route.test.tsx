@@ -15,7 +15,6 @@ describe('Test for routes', () => {
     renderWithRouter(<Login />);
     expect(screen.getByText('Login')).toBeDefined();
   });
-
 });
 // import { describe, test, expect } from "vitest";
 // import Button from "../components/atoms/Button";

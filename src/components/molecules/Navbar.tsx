@@ -13,9 +13,7 @@ import {
 const Navbar: FC = () => {
   const { pathname } = useLocation();
   const [colorTheme, setTheme] = useDarkToggle();
-  const [darkSide, setDarkSide] = useState(
-    colorTheme === 'dark',
-  );
+  const [darkSide, setDarkSide] = useState(colorTheme === 'dark');
 
   const toggleDarkMode = () => {
     setTheme(darkSide === true ? 'dark' : 'light');

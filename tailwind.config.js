@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme');
+
 export default {
   important: true,
   darkMode: 'class',
@@ -8,7 +9,7 @@ export default {
     extend: {
       fontFamily: {
         lexandDeca: ['Lexend Deca', ...defaultTheme.fontFamily.sans],
-        rubik: ["Rubik", ...defaultTheme.fontFamily.sans]
+        rubik: ['Rubik', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primaryColor: '#2F65E3',
@@ -19,7 +20,7 @@ export default {
         backgroundColor200: '#FCFCFC',
         backgroundColor300: '#9F9F9F',
         backgroundColor400: '#3A3A3A',
-        textColor: '#414141'
+        textColor: '#414141',
       },
     },
   },

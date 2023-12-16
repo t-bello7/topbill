@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { MobileNav, DesktopNav } from '../molecules';
 
 const Footer: FC = () => (
-  <footer className="fixed bottom-0 w-full bg-white md:static dark:bg-darkBackgroundColor md:bg-primaryColor">
+  <footer className="fixed bottom-0 w-full bg-white dark:bg-darkBackgroundColor md:static md:bg-primaryColor">
     <MobileNav />
     <DesktopNav />
     <div className="hidden bg-secondaryColor py-5 md:block">

@@ -22,26 +22,27 @@
 
 # ✨ About Check <a name="about-project"></a>
 
-**Check** is designed to simplify payment management, strengthen client bonds and provide real-time insights. 
+**Check** is designed to simplify payment management, strengthen client bonds and provide real-time insights.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
 <ul>
     <li><a href="https://reactjs.org/">MongoDB</a></li>
     <li><a href="https://tailwindcss.com/">React Js</a></li>
     <li><a href="https://www.framer.com/motion/">Framer Motion</a></li>
+    <li> Squad api</li>
 </ul>
-
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Advances Invoice Mangement:** Ability to create multiple invoices for clients 
+- **Advances Invoice Mangement:** Ability to create multiple invoices for clients
 - **AI Integration:**
-- **Client Profile Management:** Ability to manage client profiles and socials 
--- **Insight Reports:**Get Insight reports on total sales sold 
+- **Client Profile Management:** Ability to manage client profiles and socials
+-- **Insight Reports:**Get Insight reports on total sales sold
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -54,12 +55,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- Resources -->
+
 ## Major Dependencies <a name="resources"></a>
-- https://codingpr.com/test-your-react-app-with-vitest-and
--https://grandconference.themegoods.com/v5/design/
--react-testing-library/
+
+- https://codingpr.com/test-your-react-app-with-vitest-and -https://grandconference.themegoods.com/v5/design/
+  -react-testing-library/
 - https://vitest.dev/guide/
 
 - https://www.framer.com/motion/introduction/
@@ -73,13 +74,16 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites <a name="prerequisites"></a>
 
 In order to run this project you need:
+
 - **Node Js :** To install Node Js on Linux, use the command below:
+
 ```sh
 sudo apt install Nodejs
 
 ```
 
 - **Yarn Package Manager :** After instatallation of NodeJs you install yarn using the command below:
+
 ```sh
 npm install --global yarn
 ```
@@ -97,11 +101,13 @@ npm install --global yarn
 ```sh
 cd check
 ```
+
 3.  Install the dependency required for the project using yarn package manager
 
 ```sh
-yarn install 
+yarn install
 ```
+
 4. Set up your .env file by duplicating the .env.sample and passing in the necessary parameters
 
 5. To run the project, execute the following command:
@@ -109,17 +115,17 @@ yarn install
 ```sh
   yarn dev
 ```
-  - You should get a result like this
+
+- You should get a result like this
   <img src="./public/imgs/vite-setup.png" alt="vite running on localhost:5173"/>
 
-### Run tests <a name="run-tests"></a> 
+### Run tests <a name="run-tests"></a>
 
 To run tests, run the following command:
 
 ```sh
   yarn test
 ```
-
 
 <!-- CONTRIBUTING -->
 
@@ -139,7 +145,6 @@ If you like this project leave a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
@@ -158,7 +163,6 @@ If you like this project leave a star.
  The application is configured to run the eslint and prettier check on the precommit stage. Read the errors properly and try to fix it
   </ul>
 </details>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
