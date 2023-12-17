@@ -27,7 +27,7 @@ const Header: FC = () => {
               styleType="primary"
             />
             <span className="capitalize md:hidden">{state?.pageName}</span>
-            <h2 className="hidden font-roboto md:block"> Check </h2>
+            <h2 className="hidden font-roboto md:block"> TopBill </h2>
           </>
         )}
         <Navbar />

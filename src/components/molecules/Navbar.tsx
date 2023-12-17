@@ -40,7 +40,7 @@ const Navbar: FC = () => {
 
   return (
     <div className="flex items-center gap-5">
-      <ul className="flex items-center gap-6">
+      <ul className="hidden items-center gap-6 md:flex">
         {navLinks.map((item) => (
           <Link to={item.url} key={item.id}>
             <Button
