@@ -8,9 +8,9 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
   // registerType: 'promp/t',
   base: '/',
   manifest: {
-    name: 'Check',
+    name: 'TopBill',
     theme_color: '#317EFB',
-    short_name: 'Check',
+    short_name: 'TopBill',
     start_url: '/',
     display: 'standalone',
     description: 'A description for your application',

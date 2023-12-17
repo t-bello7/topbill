@@ -20,9 +20,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# ✨ About Check <a name="about-project"></a>
+# ✨ About TopBill <a name="about-project"></a>
 
-**Check** is designed to simplify payment management, strengthen client bonds and provide real-time insights.
+**TopBill** is designed to simplify payment management, strengthen client bonds and provide real-time insights.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,7 +51,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://luxury-torrone-154914.netlify.app/)
+- [Live Demo Link](https://topbill.co/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,13 +93,13 @@ npm install --global yarn
 1. Fork the repo, the clone this repository using the following command (remember to replace the github username in the url)
 
 ```sh
-  git clone https://github.com/<your-github-username>/check
+  git clone https://github.com/<your-github-username>/TopBill
 ```
 
 2. Go to the project folder
 
 ```sh
-cd check
+cd TopBill
 ```
 
 3.  Install the dependency required for the project using yarn package manager
@@ -133,7 +133,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to TopBill the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +160,7 @@ If you like this project leave a star.
 <details>
   <summary>Why is my commit failing ?</summary>
   <ul>
- The application is configured to run the eslint and prettier check on the precommit stage. Read the errors properly and try to fix it
+ The application is configured to run the eslint and prettier TopBill on the precommit stage. Read the errors properly and try to fix it
   </ul>
 </details>
 
