@@ -1,50 +1,50 @@
 import { FC } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
+import {
+  ReportIcon, MoneyIcon, PeopleIcon, ChartIcon,
+} from '../assets/icons';
 import { SectionTitle } from '../components/atoms';
-import { LatestAdSection } from '../components/elements';
+import { ReportCard } from '../components/molecules';
+import { ReportDataInt } from '../utils';
 
-// const categoryImageResize = (publicId: string) => cld
-//   .image(publicId)
-//   .resize(crop().width(150).height(150))
-//   .roundCorners(byRadius(20));
-const navLinks = [
+const reportData: ReportDataInt[] = [
   {
     id: uuidv4(),
-    name: 'community',
-    url: '/community',
+    cardTitle: 'Total Revenue',
+    increase: true,
+    cardNum: '$ 512k',
+    cardIcon: <MoneyIcon color="stroke-successColor" />,
+    chartIcon: <ChartIcon color="fill-successColor" />,
   },
   {
     id: uuidv4(),
-    name: 'apartments',
-    url: '/apartments',
+    cardTitle: 'Total Invoices',
+    increase: false,
+    cardNum: '343',
+    cardIcon: <ReportIcon color="fill-dangerColor" />,
+    chartIcon: <ChartIcon color="fill-dangerColor" />,
   },
   {
     id: uuidv4(),
-    name: 'Phones, tablets & Accessories',
-    url: '/gadgets',
+    cardTitle: 'Total Clients',
+    increase: true,
+    cardNum: '342',
+    cardIcon: <PeopleIcon color="stroke-primaryColor" />,
+    chartIcon: <ChartIcon color="fill-primaryColor" />,
   },
 ];
 
 const Home: FC = () => (
-  <div className="space-y-5 pb-[15vh] md:pb-[20vh]">
+  <div className="space-y-5 pb-[10vh] md:pb-[20vh]">
     <section className="space-y-3">
-      <SectionTitle name="All Categories" />
-      <div className="grid grid-cols-3 gap-3 md:grid-cols-4 lg:grid-cols-6">
-        {navLinks.map((item) => (
-          <Link to={item.url} key={item.id} state={{ pageName: item.name }}>
-            <div className="space-y-2 justify-self-center hover:cursor-pointer">
-              <div className="text-center text-xs capitalize">
-                {' '}
-                {item.name}
-                {' '}
-              </div>
-            </div>
-          </Link>
+      <SectionTitle name="Reports" />
+      <div className="grid gap-2 md:grid-cols-3">
+        {reportData.map((item) => (
+          <ReportCard key={item.id} data={item} />
         ))}
       </div>
     </section>
-    <LatestAdSection />
   </div>
 );
 export default Home;

@@ -10,7 +10,6 @@ interface ButtonInterface {
   styleType?: 'primary' | 'secondary' | 'disabled';
   onClick?: () => void;
 }
-// Primary - background color-white, border, color - primary color
 
 interface IconInterface {
   color: string;
@@ -27,35 +26,43 @@ interface SectionTitleInt {
   name: string;
 }
 
-interface LatestAdDataInt {
-  id: string;
-  name: string;
-  price: number;
-  location: string;
-  img: string;
-  viewsNum: number;
-}
-
-interface ProductCardInt {
-  data: LatestAdDataInt;
-  type?: 'apartment';
-}
-
 interface ClientsDataInt {
   id: string;
-  viewNum: number;
-  commentNum: number;
-  likeNum: number;
-  shareNum: number;
-  datePosted: string;
-  authorName: string;
-  authorImg: string;
-  postTitle: string;
-  postContent: string;
+  firstName: string;
+  lastName: string;
+  clientImg: string;
+  totalAmount: number;
+  email: string;
 }
 
 interface ClientsCardInt {
   data: ClientsDataInt;
+}
+
+interface ReportDataInt {
+  id: string;
+  cardTitle: string;
+  cardIcon: ReactNode;
+  chartIcon: ReactNode;
+  increase: boolean;
+  cardNum: string;
+}
+interface ReportCardInt {
+  data: ReportDataInt;
+}
+
+interface InvoiceDataInt {
+  id: string;
+  clientImg: string;
+  totalAmount: number;
+  dueDate: string;
+  paid: boolean;
+  firstName: string;
+  lastName: string;
+}
+
+interface InvoiceCardInt {
+  data: InvoiceDataInt;
 }
 
 export type {
@@ -63,8 +70,10 @@ export type {
   IconInterface,
   CustomInputInt,
   SectionTitleInt,
-  ProductCardInt,
-  LatestAdDataInt,
   ClientsCardInt,
   ClientsDataInt,
+  ReportDataInt,
+  ReportCardInt,
+  InvoiceCardInt,
+  InvoiceDataInt,
 };

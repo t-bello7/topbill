@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 import { VitePWA, VitePWAOptions } from 'vite-plugin-pwa';
 
 const manifestForPlugin: Partial<VitePWAOptions> = {
-  // mode: 'development',
-  // registerType: "autoUpdate",
-  registerType: 'prompt',
+  mode: 'development',
+  registerType: 'autoUpdate',
+  // registerType: 'promp/t',
   base: '/',
   manifest: {
     name: 'Check',

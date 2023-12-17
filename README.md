@@ -60,7 +60,6 @@
 ## Resources <a name="resources"></a>
 - https://vitest.dev/guide/
 - https://www.behance.net/gallery/97318173/WAVE-Invoicing-and-Money-Management?tracking_source=search_projects&l=29
-- https://www.behance.net/gallery/184647187/Rapid-Invoice?tracking_source=search_projects&l=26
 - https://www.framer.com/motion/introduction/
 - https://www.zoho.com/invoice/mobile-apps/
 - https://www.invoicesimple.com/

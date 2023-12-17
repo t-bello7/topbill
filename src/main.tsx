@@ -22,7 +22,7 @@ const router = createBrowserRouter([
         element: <Settings />,
       },
       {
-        path: '/invoice',
+        path: '/invoices',
         element: <Invoices />,
       },
       {

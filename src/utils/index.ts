@@ -7,10 +7,12 @@ import type {
   IconInterface,
   SectionTitleInt,
   CustomInputInt,
-  ProductCardInt,
-  LatestAdDataInt,
   ClientsCardInt,
   ClientsDataInt,
+  ReportCardInt,
+  ReportDataInt,
+  InvoiceCardInt,
+  InvoiceDataInt,
 } from './types';
 
 const renderWithRouter = (ui: ReactElement<string>, { route = '/' } = {}) => {
@@ -30,8 +32,10 @@ export {
   IconInterface,
   SectionTitleInt,
   CustomInputInt,
-  ProductCardInt,
-  LatestAdDataInt,
   ClientsCardInt,
   ClientsDataInt,
+  ReportCardInt,
+  ReportDataInt,
+  InvoiceCardInt,
+  InvoiceDataInt,
 };

@@ -1,22 +1,60 @@
 import { FC } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { ProductCard } from '../components/molecules';
+import { Tabs } from 'antd';
+import type { TabsProps } from 'antd';
+import { InvoiceCard } from '../components/molecules';
+import { InvoiceDataInt } from '../utils';
 
-const data = [
+const data: InvoiceDataInt[] = [
   {
     id: uuidv4(),
-    img: 'https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png',
-    name: 'Female Hostels in Abule-Oja',
-    location: 'University of Lagos, Unilag',
-    price: 350000,
-    viewsNum: 453,
+    firstName: 'Odumodu',
+    lastName: 'ff',
+    clientImg: 'https://xsgames.co/randomusers/avatar.php?g=pixel',
+    totalAmount: 300,
+    dueDate: '12-dec-2023',
+    paid: true,
+  },
+];
+
+const items: TabsProps['items'] = [
+  {
+    key: uuidv4(),
+    label: 'All',
+    children: (
+      <>
+        {data.map((item) => (
+          <InvoiceCard key={item.id} data={item} />
+        ))}
+      </>
+    ),
+  },
+  {
+    key: uuidv4(),
+    label: 'paid',
+    children: (
+      <>
+        {data.map((item) => (
+          <InvoiceCard key={item.id} data={item} />
+        ))}
+      </>
+    ),
+  },
+  {
+    key: uuidv4(),
+    label: 'unpaid',
+    children: (
+      <>
+        {data.map((item) => (
+          <InvoiceCard key={item.id} data={item} />
+        ))}
+      </>
+    ),
   },
 ];
 const Invoices: FC = () => (
   <section>
-    {data.map((item) => (
-      <ProductCard key={item.id} data={item} type="apartment" />
-    ))}
+    <Tabs items={items} />
   </section>
 );
 

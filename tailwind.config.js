@@ -20,6 +20,8 @@ export default {
         backgroundColor200: '#FCFCFC',
         backgroundColor300: '#9F9F9F',
         backgroundColor400: '#3A3A3A',
+        successColor: '#039855',
+        dangerColor: '#d95a47',
         textColor: '#414141',
       },
     },

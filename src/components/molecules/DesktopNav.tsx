@@ -9,7 +9,7 @@ import {
 
 const DesktopNav: FC = () => (
   <div className="container mx-auto hidden max-w-[90%] space-y-6 py-10 text-backgroundColor200 md:block">
-    <h2> Campus Hub </h2>
+    <h2> Check</h2>
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
       <div>
         <h3 className="mb-5 font-roboto text-lg font-bold capitalize">

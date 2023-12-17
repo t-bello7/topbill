@@ -1,13 +1,12 @@
 import { FC } from 'react';
-import { MobileNav, DesktopNav } from '../molecules';
+import { MobileNav } from '../molecules';
 
 const Footer: FC = () => (
-  <footer className="fixed bottom-0 w-full bg-white dark:bg-darkBackgroundColor md:static md:bg-primaryColor">
+  <footer className="fixed w-full bg-white dark:bg-darkBackgroundColor md:static md:bg-primaryColor">
     <MobileNav />
-    <DesktopNav />
     <div className="hidden bg-secondaryColor py-5 md:block">
       <p className="text-center text-white ">
-        2022 Varsityhub - Biggest Marketplace for Nigerian Students. All rights
+        2023 Check - Biggest Marketplace for Nigerian Students. All rights
         reserved.
       </p>
     </div>

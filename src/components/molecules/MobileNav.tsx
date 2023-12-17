@@ -25,7 +25,7 @@ const navLinks = [
 ];
 
 const MobileNav = () => (
-  <nav className="container mx-auto grid max-w-[95%] grid-cols-3 self-center shadow-inner md:hidden ">
+  <nav className="container mx-auto grid max-w-[95%] grid-cols-3 justify-items-center shadow-inner md:hidden ">
     {navLinks.map((item) => (
       <Link to={item.url} key={item.id}>
         <Button

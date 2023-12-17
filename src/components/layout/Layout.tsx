@@ -10,7 +10,7 @@ const Layout: FC = () => {
       <hr className="my-2 bg-backgroundColor" />
       <main
         className={`container mx-auto ${
-          pathname === '/' ? 'mt-[16vh]' : 'mt-[10vh]'
+          pathname === '/' ? 'mt-[10vh]' : 'mt-[16vh]'
         } max-w-[90%] space-y-5 text-textColor dark:text-white`}
       >
         <Outlet />

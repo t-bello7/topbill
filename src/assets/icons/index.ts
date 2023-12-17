@@ -17,6 +17,13 @@ import ShareIcon from './shareIcon';
 import LikeIcon from './likeIcon';
 import CommentIcon from './commentIcon';
 import BackButtonIcon from './backButtonIcon';
+import SettingsIcon from './settingsIcon';
+import PeopleIcon from './peopleIcon';
+import ReportIcon from './reportIcon';
+import MoneyIcon from './moneyIcon';
+import ChartIcon from './chartIcon';
+import ChartDownIcon from './chartDownIcon';
+import ChartUpIcon from './chartUpIcon';
 
 export {
   ModeIcon,
@@ -38,4 +45,11 @@ export {
   LikeIcon,
   ShareIcon,
   BackButtonIcon,
+  SettingsIcon,
+  MoneyIcon,
+  PeopleIcon,
+  ReportIcon,
+  ChartIcon,
+  ChartDownIcon,
+  ChartUpIcon,
 };
